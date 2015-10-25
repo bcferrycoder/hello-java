@@ -1,5 +1,6 @@
 ---
 applications: 
 - name: hello-java
+  host: hello-java-${random-word}
   mem: 512M
   path: target/hello-java-1.0.war
